@@ -7,7 +7,7 @@
     <title>PRUEBA</title>
 </head>
 <body>
-    <h3>Consulta de puntos</h3>
+    <h3>Consulta de diferencias de edad</h3>
     <form action="diferencia.php" method="post">
         <label for="H1">Edad 1</label><input name="H1" type="text" value="">
         <label for="H2">Edad 2</label><input name="H2" type="text" value="">

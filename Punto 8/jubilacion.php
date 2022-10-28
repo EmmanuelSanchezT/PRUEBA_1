@@ -21,9 +21,9 @@
     }else{
         if($sexo=="Femenino"){
             if($edad>54){
-                echo "Jubilación = Apto";
+                echo "Jubilación = Apta";
             }else{
-                echo "Jubilación = No apto";
+                echo "Jubilación = No apta";
             }
         }
     }

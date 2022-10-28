@@ -7,7 +7,7 @@
     <title>PRUEBA</title>
 </head>
 <body>
-    <h3>INGRESO DE NOTAS </h3>
+    <h3>Consulta si eres apto para jubilarte </h3>
     <form action="jubilacion.php" method="post">
         <label for="1">Edad</label><input name="Edad" type="text" value="">
       <!--   <select name="Sexo"><option value="">Femenenio</option>

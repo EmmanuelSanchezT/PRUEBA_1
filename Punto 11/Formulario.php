@@ -7,7 +7,7 @@
     <title>PRUEBA</title>
 </head>
 <body>
-    <h3>COMPRA DE PRODUCTOS</h3>
+    <h3>COSTO DE PRODUCTOS</h3>
     <form action="Precio.php" method="post">
         <label for="1">Costo del Producto</label><input name="Costo" type="text" value="">
         <input type="submit" name="Enviar" value="consultar">

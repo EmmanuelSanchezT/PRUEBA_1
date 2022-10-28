@@ -7,7 +7,8 @@
     <title>PRUEBA</title>
 </head>
 <body>
-    <h3>Consulta de puntos</h3>
+    <h3>Consulta de precios</h3>
+    <h5>Ingrese las unidades que desee comprar: </h5>
     <form action="pago.php" method="post">
         <label for="H1">Cantidad de volantes</label><input name="V" type="text" value="">
         <label for="H2">Cantidad de T. de Presentación</label><input name="TP" type="text" value="">
