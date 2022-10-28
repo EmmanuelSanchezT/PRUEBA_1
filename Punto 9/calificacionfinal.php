@@ -1,30 +1,28 @@
 <?php
-    $edad= $_POST['Edad'];
-    $sexo = $_POST['Sexo'];
-  
-   /*  if($edad>=63 && $sexo=="Masculino"){
-        echo "Jubilación = Apto";
+    $nombre= $_POST['Aprendiz'];
+    $asignatura = $_POST['Asignatura'];
+    $n1= $_POST['N1'];
+    $n2 = $_POST['N2'];
+    $n3 = $_POST['N3'];
 
-    }elseif($edad>54 && $sexo=="Femenino"){
-        echo "Jubilación = Apto";
+    $n4= $n1 * 0.30;
+    $n5 = $n2 * 0.30;
+    $n6 = $n3 * 0.40;
 
-    }else{
-        echo "Jubilación = No apto";
-    } */
+    $NotaFinal = $n4 + $n5 + $n6;
 
-    if($sexo=="Masculino"){
-        if($edad>=63){
-            echo "Jubilación = Apto";
+    if($NotaFinal >= 4.0){
+            echo "Aprendiz = ".$nombre;
+            echo "";
+            echo "Asignatura = ".$asignatura;
+            echo "";
+            echo "Nota Definitiva = ".$NotaFinal." - APROBADO";
         }else{
-            echo "Jubilación = No apto";
+            echo "Aprendiz = ".$nombre;
+            echo "";
+            echo "Asignatura = ".$asignatura;
+            echo "";
+            echo "Nota Definitiva = ".$NotaFinal." - DESAPROBADO";
         }
-    }else{
-        if($sexo=="Femenino"){
-            if($edad>54){
-                echo "Jubilación = Apto";
-            }else{
-                echo "Jubilación = No apto";
-            }
-        }
-    }
+    
 ?>
